@@ -9,6 +9,9 @@ export const getAllProducts=()=>{
     return products;
 }
 
-export const addProduct=()=>{
-  
-}
+export const addProduct=(item)=>{
+ item.id= nextid;
+   nextid++;
+   products.push(item);
+  return item;
+};
