@@ -74,3 +74,7 @@ headers is used to tell the client,the type of data sent by the server it may be
 the headers can be set by res object at server side by two ways
 7. res.setheader
 8. res.writehead()
+get-no parameter passed to the server when we recieved all items
+post-to add records we passed the value from body section in json format of api tester
+delete-to delete any product we pass parameter i.e id of the product from url
+update-to update any product we pass id from url and data to update from body
